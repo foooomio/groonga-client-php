@@ -5,12 +5,17 @@ use kerria\GroongaClient\Query;
 
 class Groonga
 {
-    public static function select($table)
+    public static function init($config)
     {
-        return (new Query())->table($table);
     }
 
     public static function send(Query $query)
     {
+    }
+
+    public static function select($table)
+    {
+        $query = new Query('select');
+        return $query->table($table);
     }
 }
