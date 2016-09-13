@@ -1,2 +1,2 @@
-# groonga-client-php
+# MiniGroonga
 Yet another Groonga client for PHP

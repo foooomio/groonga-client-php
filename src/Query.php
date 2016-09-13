@@ -1,7 +1,7 @@
 <?php
-namespace kerria\GroongaClient;
+namespace MiniGroonga;
 
-use kerria\GroongaClient\Groonga;
+use MiniGroonga\Groonga;
 
 class Query
 {

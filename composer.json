@@ -1,5 +1,5 @@
 {
-    "name": "kerria/groonga-client",
+    "name": "foooomio/mini-groonga",
     "description": "Yet another Groonga client for PHP",
     "type": "library",
     "require": {
@@ -11,12 +11,12 @@
     },
     "autoload": {
         "psr-4": {
-            "kerria\\GroongaClient\\": "src/"
+            "MiniGroonga\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "kerria\\GroongaClient\\Tests\\": "tests/"
+            "MiniGroonga\\Tests\\": "tests/"
         }
     },
     "license": "MIT",

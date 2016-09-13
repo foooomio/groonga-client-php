@@ -1,7 +1,7 @@
 <?php
-namespace kerria\GroongaClient\Test;
+namespace MiniGroonga\Test;
 
-use kerria\GroongaClient\Groonga;
+use MiniGroonga\Groonga;
 
 class GroongaTest extends \PHPUnit_Framework_TestCase
 {
