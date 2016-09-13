@@ -46,6 +46,6 @@ class Query
         if (count($args) === 0) {
             return $this->get($name);
         }
-        return $this->set($name, array_pop($args));
+        return $this->set($name, array_shift($args));
     }
 }
